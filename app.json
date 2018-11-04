@@ -1,0 +1,15 @@
+{
+    "id": "ec9aa1c1-11b9-47e4-b919-bbc3fa2f2c00",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.0.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Reiske.Tech",
+        "homepage": "https://reiske.tech/",
+        "support": "https://github.com/wreiske/Rocket.Chat.App-WebEx/issues"
+    },
+    "name": "WebEx",
+    "nameSlug": "webex",
+    "classFile": "WebExApp.ts",
+    "description": "Start a WebEx from inside Rocket.Chat with a slash command."
+}
