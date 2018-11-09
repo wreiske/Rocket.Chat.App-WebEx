@@ -22,8 +22,8 @@ export class WebExApp extends App {
             public: false,
             i18nLabel: 'Customize_Name',
             i18nDescription: 'Customize_Name_Description',
-        });       
-        
+        });
+
         await configuration.settings.provideSetting({
             id: 'webex_company',
             type: SettingType.STRING,
@@ -37,7 +37,7 @@ export class WebExApp extends App {
         await configuration.settings.provideSetting({
             id: 'webex_icon',
             type: SettingType.STRING,
-            packageValue: 'https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-06-17/384053245894_495b0d8bc7454e59a3c8_512.png',
+            packageValue: 'https://apis.reiske.tech/images/webex_icon.png',
             required: true,
             public: false,
             i18nLabel: 'Customize_Icon',
