@@ -1,7 +1,7 @@
 # Rocket.Chat.App-WebEx
 Start a WebEx from inside Rocket.Chat with a slash command.
 
-![Webex Preview](https://apis.reiske.tech/images/apis.reiske.tech.webex_02.png)
+![Webex Preview](https://apps.rocketbooster.net/images/webex_02.png)
 
 ## Getting Started
 After installing from the Rocket.Chat Apps marketplace, please make sure you fill out the "Customize company" section in the App Details screen.
