@@ -1,14 +1,14 @@
 {
     "id": "ec9aa1c1-11b9-47e4-b919-bbc3fa2f2c00",
-    "version": "0.0.2",
-    "requiredApiVersion": "^1.2.1",
+    "version": "0.0.3",
+    "requiredApiVersion": "^1.4.0",
     "iconFile": "icon.png",
     "author": {
-        "name": "Reiske.Tech",
-        "homepage": "https://reiske.tech/",
+        "name": "RocketBooster",
+        "homepage": "https://apps.rocketbooster.net/webex",
         "support": "https://github.com/wreiske/Rocket.Chat.App-WebEx/issues"
     },
-    "name": "WebEx",
+    "name": "WebEx Meetings",
     "nameSlug": "webex",
     "classFile": "WebExApp.ts",
     "description": "Start a WebEx from inside Rocket.Chat with a slash command."

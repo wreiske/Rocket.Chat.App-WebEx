@@ -37,7 +37,7 @@ export class WebExApp extends App {
         await configuration.settings.provideSetting({
             id: 'webex_icon',
             type: SettingType.STRING,
-            packageValue: 'https://apis.reiske.tech/images/webex_icon.png',
+            packageValue: 'https://apps.rocketbooster.net/images/webex_icon.png',
             required: true,
             public: false,
             i18nLabel: 'Customize_Icon',

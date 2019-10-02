@@ -43,8 +43,13 @@ export class WebExCommand implements ISlashCommand {
             }],
         };
         const builder = modify.getCreator().startMessage()
-            .setSender(/* botUser || */ context.getSender()).setRoom(context.getRoom())
-            .setText(text).setUsernameAlias(username).setAvatarUrl(icon).setAttachments([joinButton]);
+            .setSender(/* botUser || */ context.getSender())
+            .setRoom(context.getRoom())
+            .setText(text)
+            .setUsernameAlias(username)
+            .setAvatarUrl(icon)
+            .setAttachments([joinButton])
+            .setParseUrls(false);
 
         await modify.getCreator().finish(builder);
     }
