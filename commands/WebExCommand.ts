@@ -51,6 +51,12 @@ export class WebExCommand implements ISlashCommand {
             .setAttachments([joinButton])
             .setParseUrls(false);
 
+        const tid = context.getThreadId();
+
+        if (tid) {
+            builder.setThreadId(tid);
+        }
+
         await modify.getCreator().finish(builder);
     }
 }
