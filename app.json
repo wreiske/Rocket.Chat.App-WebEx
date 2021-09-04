@@ -1,7 +1,7 @@
 {
     "id": "ec9aa1c1-11b9-47e4-b919-bbc3fa2f2c00",
-    "version": "0.0.4",
-    "requiredApiVersion": "^1.7.2",
+    "version": "0.0.5",
+    "requiredApiVersion": "^1.19.0",
     "iconFile": "icon.png",
     "author": {
         "name": "RocketBooster",
@@ -10,6 +10,7 @@
     },
     "name": "WebEx Meetings",
     "nameSlug": "webex",
-    "classFile": "WebExApp.ts",
-    "description": "Start a WebEx from inside Rocket.Chat with a slash command."
+    "classFile": "WebEx.ts",
+    "description": "Start a WebEx from inside Rocket.Chat with a slash command.",
+    "implements": []
 }

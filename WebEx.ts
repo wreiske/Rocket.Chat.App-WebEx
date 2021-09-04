@@ -7,7 +7,7 @@ import { SettingType } from '@rocket.chat/apps-engine/definition/settings';
 
 import { WebExCommand } from './commands/WebExCommand';
 
-export class WebExApp extends App {
+export class WebEx extends App {
 
     constructor(info: IAppInfo, logger: ILogger) {
         super(info, logger);

@@ -25,9 +25,9 @@ export class WebExCommand implements ISlashCommand {
 
         let meetingUrl = '';
         if (context.getArguments().length >= 1) {
-            meetingUrl = `https://${company}.webex.com/join/${context.getArguments()[0].trim()}`;
+            meetingUrl = `https://${company}.webex.com/join/${context.getArguments()[0].trim().replace('@', '')}`;
         } else {
-            meetingUrl = `https://${company}.webex.com/join/${messageSender.username}`;
+            meetingUrl = `https://${company}.webex.com/join/${messageSender.username.replace('@', '')}`;
         }
 
         // NOTE: there is a bug with mobile Rocket.Chat showing "Full Name" instead of "nfull" for the username
